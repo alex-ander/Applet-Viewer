@@ -6,17 +6,17 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane prefHeight="176.0" prefWidth="571.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+<AnchorPane prefHeight="146.0" prefWidth="456.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Label layoutX="14.0" layoutY="14.0" text="Applet Viewer">
+      <Label layoutX="14.0" layoutY="7.0" text="Applet Viewer">
          <font>
             <Font size="28.0" />
          </font>
       </Label>
-      <Separator layoutX="14.0" layoutY="53.0" prefWidth="200.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" />
-      <Button id="open" fx:id="open" layoutX="450.0" layoutY="73.0" mnemonicParsing="false" text="Durchsuchen" />
-      <TextField layoutX="14.0" layoutY="73.0" prefHeight="31.0" prefWidth="425.0" promptText="Dateipfad" />
-      <Button layoutX="253.0" layoutY="131.0" mnemonicParsing="false" text="Ausführen" />
+      <Separator layoutX="14.0" layoutY="46.0" prefWidth="200.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" />
+      <Button fx:id="open" layoutX="326.0" layoutY="59.0" mnemonicParsing="false" text="Durchsuchen" AnchorPane.rightAnchor="14.0" />
+      <TextField fx:id="textField" layoutX="14.0" layoutY="59.0" prefHeight="31.0" prefWidth="312.0" promptText="Dateipfad" />
+      <Button fx:id="execute" layoutX="184.0" layoutY="101.0" mnemonicParsing="false" text="Ausführen" />
    </children>
 </AnchorPane>
+
